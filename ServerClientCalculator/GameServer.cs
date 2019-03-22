@@ -42,7 +42,10 @@ namespace ServerClientCalculator
             
 
         }
-
+        private void NewFunction()
+        {
+            Console.WriteLine("_____________");
+        }
         private void Sub(byte[] data, EndPoint sender)
         {
             if (!clientsTable.ContainsKey(sender))
